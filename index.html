@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <!-- Meta tag essencial para adaptar o site em celulares -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InfoTech Cursos — Portal de Cursos de Informática</title>
+    <!-- Separação entre estrutura (HTML) e estilo (CSS) -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 1. Cabeçalho com nome da empresa e 2. Menu de navegação -->
+    <header class="cabecalho-principal">
+        <div class="container-central">
+            <h1 class="logo-empresa">InfoTech Cursos</h1>
+            <nav aria-label="Navegação principal">
+                <ul class="menu-navegacao">
+                    <li><a href="#apresentacao">Início</a></li>
+                    <li><a href="#cursos">Cursos</a></li>
+                    <li><a href="#sobre-nos">Sobre Nós</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 3. Banner de apresentação -->
+    <section id="apresentacao" class="banner-destaque">
+        <div class="container-central">
+            <h2>Transforme seu futuro com a Tecnologia</h2>
+            <p>
+                Aprenda na prática com cursos atualizados para o mercado de trabalho 
+                em programação, redes e ferramentas digitais.
+            </p>
+            <a href="#cursos" class="botao-primario">Conhecer Cursos</a>
+        </div>
+    </section>
+
+    <main class="container-central">
+
+        <!-- 4. Seção com três cursos disponíveis -->
+        <section id="cursos" class="secao-conteudo">
+            <h2 class="titulo-secao">Cursos Disponíveis</h2>
+            
+            <div class="grade-cursos">
+                <!-- Curso 1 -->
+                <article class="cartao-curso">
+                    <span class="etiqueta-nivel">Iniciante</span>
+                    <h3>Informática Essencial</h3>
+                    <p>
+                        Domine sistemas operacionais, pacotes de escritório, planilhas eletrônicas 
+                        e ferramentas produtivas na nuvem.
+                    </p>
+                    <p class="carga-horaria">Carga horária: 40 horas</p>
+                </article>
+
+                <!-- Curso 2 -->
+                <article class="cartao-curso">
+                    <span class="etiqueta-nivel">Intermediário</span>
+                    <h3>Desenvolvimento Web Front-End</h3>
+                    <p>
+                        Construa sites modernos, responsivos e bem estruturados utilizando 
+                        HTML5, CSS3 e JavaScript na prática.
+                    </p>
+                    <p class="carga-horaria">Carga horária: 80 horas</p>
+                </article>
+
+                <!-- Curso 3 -->
+                <article class="cartao-curso">
+                    <span class="etiqueta-nivel">Avançado</span>
+                    <h3>Lógica e Programação em Java</h3>
+                    <p>
+                        Aprenda programação orientada a objetos, estruturas de dados e criação 
+                        de sistemas completos passo a passo.
+                    </p>
+                    <p class="carga-horaria">Carga horária: 100 horas</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- 5. Seção "Sobre nós" -->
+        <section id="sobre-nos" class="secao-conteudo">
+            <h2 class="titulo-secao">Sobre Nós</h2>
+            <p>
+                A <strong>InfoTech Cursos</strong> é uma escola especializada na formação prática 
+                em tecnologia da informação. Nossa missão é capacitar estudantes e profissionais 
+                com ensino claro, projetos reais e acompanhamento próximo.
+            </p>
+            <p>
+                Contamos com laboratórios equipados, material didático atualizado e instrutores 
+                que atuam diretamente no mercado de desenvolvimento de sistemas.
+            </p>
+        </section>
+
+    </main>
+
+    <!-- 6. Rodapé com informações de contato -->
+    <footer id="contato" class="rodape-principal">
+        <div class="container-central">
+            <h3>Entre em Contato</h3>
+            <p>E-mail: contato@infotechcursos.com.br | Telefone: (41) 3333-4444</p>
+            <p>Endereço: Av. da Tecnologia, 1000 — Centro</p>
+            <p class="direitos-autorais">© 2026 InfoTech Cursos — Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
